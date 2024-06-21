@@ -1,0 +1,27 @@
+.header {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.img {
+    content: right;
+}
+.subtitulo {
+    color: darkblue;
+}
+
+.Informacion {
+    font-weight: bold;
+}
+
+.info-personal {
+    text-align: right;
+}
+
+p {
+    font-family: arial;
+}
+
+
+
+

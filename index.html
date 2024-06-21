@@ -4,34 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currilum</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Jonathan Moreira</h1>
         <h2>Ingeniero informatico</h2>
-        <img src="imagenes/persona.png">
+        <div class="img">
+            <img src="imagenes/persona.png">
+        </div>
     </header>
 
     <section>
-        <h2>Personal</h2>
-        <section>
-        <h3>Nombre</h3>
-            <p>Jonathan Moreira</p>
-        <h3>F. Nacimiento</h3>
-            <p>07/02/1979</p>
-        <h3>Email</h3>
-            <p>jasg@gmail.com</p>
-        <h3>Telefono</h3>
-            <p>689689689</p>
-        <h3>Sitio web</h3>
-            <p>www.moreira.com</p>
+        <h2 class="subtitulo">Personal</h2>
+
+        <section class="primer-section">
+            
+            <div>
+                <span class="Informacion">Nombre</span>
+                <span class="info-personal">Jonathan Moreira</span>
+            </div>
+            <div>
+                <span class="Informacion">F. Nacimiento</span>
+                <span>07/02/1979</span>
+            </div>
+            <div>
+                <span class="Informacion">Email</span>
+                <span>jasg@gamil.com</span>
+            </div>
+            <div>
+                <span class="Informacion">Telefono</span>
+                <span>689 689 689</span>
+            </div>
+            <div>
+                <span class="Informacion">Sitio web</span>
+                <span>www.moreira.com</span>
+            </div>
+
         </section>
-    
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quo earum, laudantium saepe sapiente vitae ipsum? Ipsa id nulla eveniet, ipsum voluptate expedita, ullam, dolores laudantium recusandae numquam perspiciatis aspernatur?</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quo earum, laudantium saepe sapiente vitae ipsum? Ipsa id nulla eveniet, ipsum voluptate expedita, ullam, dolores laudantium recusandae numquam perspiciatis aspernatur?</p>
+        </div>
     </section>
 
-    <section>
-        <h2>Educacion</h2>
+    <section class="segundo-section">
+        <h2 class="subtitulo">Educacion</h2>
         <h3>Tecnico superior en telecomunicaciones</h3>
             <p>Escuela Superior de Electrica</p>
             <p>2000-2003</p>
@@ -41,24 +58,31 @@
         <p>2004-2005</p>
     </section>
 
-    <section>
-        <h2>Experiencia</h2>
-        <h3>Programador</h3>
-            <p>PrograWeb S.L</p>
-            <p>Curabitur aliquet libero ut enim vestibulum, id placerat velit scelerisque. Quisque non laoreet
+    <section  class="tercer-section">
+        <h2 class="subtitulo">Experiencia</h2>
+
+        <div>
+            <h3>Programador</h3>
+                <p>PrograWeb S.L</p>
+                <p>Curabitur aliquet libero ut enim vestibulum, id placerat velit scelerisque. Quisque non laoreet
                 mi, vitae vulputate nisi. Morbi non diam vulputate, rhoncus felis a, hendrerit lectus. Nulla dapibus
                 mattis diam. Mauris condimentum ornare facilisis. Aenean mauris erat, gravida at placerat nec,cursus quis ipsum.</p>
-        <h3>Analista de Sistemas</h3>
-            <p>PrograWeb S.L</p>
-            <p>Vivamus eu blandit mi. Suspendisse interdum accumsan risus fringilla vehicula. Vivamus malesuada
+        </div>
+        <div>
+            <h3>Analista de Sistemas</h3>
+                <p>PrograWeb S.L</p>
+                <p>Vivamus eu blandit mi. Suspendisse interdum accumsan risus fringilla vehicula. Vivamus malesuada
                 quam nunc, eu iaculis ex suscipit tempus. Phasellus nec libero volutpat, eleifend augue quis,
                 vulputate nulla. Phasellus sed tempus est.</p>
-        <h3>Jefe de proyectos</h3>
-            <p>TecnoField C.A.</p>
-            <p>Aenean ullamcorper ultrices euismod. Praesent feugiat molestie dui, at fringilla massa ornare
+        </div>
+        <div>
+            <h3>Jefe de proyectos</h3>
+                <p>TecnoField C.A.</p>
+                <p>Aenean ullamcorper ultrices euismod. Praesent feugiat molestie dui, at fringilla massa ornare
                 quis. Duis rhoncus, mauris sed porttitor iaculis, tortor metus suscipit dui, non volutpat ante ipsum
                 a felis. Integer vestibulum justo nec est faucibus gravida. Suspendisse ultrices est in vehicula
                 vehicula.</p>
+        </div>
     </section>
 </body>
 </html>

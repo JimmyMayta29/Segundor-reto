@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(115, 201, 232);
+}
+
+h1 {
+    font-family: monospace;
+    text-align: center;
+}
+
+.canis {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.autor {
+    background-color: white;
+    color: red;
+}
+
+.fecha {
+    color: blueviolet;
+}
+
+.hr {
+    size: 60%;
+    color: beige;
+    border-width: 5px;
+    text-align: right;
+}
+img {
+    border: 8px solid rgb(16, 117, 145);
+    
+}
